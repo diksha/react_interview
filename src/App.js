@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {asyncCall} from './api.js'
 class App extends Component {
-  componentDidMount() {
-    const fetchData = async () => {
-      const data = await asyncCall();
-      console.log(data)
-    }
-    fetchData()
-  }
   render() {
 
     return (
